@@ -5,9 +5,11 @@ import { createUserWithEmailAndPassword , signInWithEmailAndPassword } from 'fir
 import {auth} from "../utils/firebase"
 
 
+
 const Login = () => {
   const [isSignINForm, setSigninForm] = useState(true);
   const [errorMsg, seterrorMsg] = useState(null);
+  
 
   const email = useRef(null);
   const password = useRef(null);
@@ -21,11 +23,12 @@ const Login = () => {
 
    if(!isSignINForm){
     //signup
-    createUserWithEmailAndPassword(auth, email.current.value, password.current.value)
+   createUserWithEmailAndPassword(auth, email.current.value, password.current.value)
   .then((userCredential) => {
     // Signed up 
     const user = userCredential.user;
     console.log(user);
+   
     // ...
   })
   .catch((error) => {
@@ -43,7 +46,7 @@ const Login = () => {
     // Signed in 
     const user = userCredential.user;
     console.log(user);
-    // ...
+   
   })
   .catch((error) => {
     const errorCode = error.code;

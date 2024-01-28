@@ -10,7 +10,9 @@
      - Deploying our app to production 
 - Create Singup user 
 - Implemented Sign In user API
-- Created Redux store with userSlice   
+- Created Redux store with userSlice  
+- update profiles
+- BugFix: If the user is signout redirect /browser to Login page and vice-versa 
 
 # Features
 - Login/ Sign up
