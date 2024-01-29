@@ -13,6 +13,10 @@
 - Created Redux store with userSlice  
 - update profiles
 - BugFix: If the user is signout redirect /browser to Login page and vice-versa 
+- Unsubscibed to the onAuthSatechange callback
+- Add hardcoded values to the constant file
+- Made an API call from TMDB
+
 
 # Features
 - Login/ Sign up
