@@ -16,6 +16,10 @@
 - Unsubscibed to the onAuthSatechange callback
 - Add hardcoded values to the constant file
 - Made an API call from TMDB
+- custom Hooks
+- created movieSlice
+- updated the store
+- Embedded the youtube video and added somme tailwind css to Maincontainer
 
 
 # Features
