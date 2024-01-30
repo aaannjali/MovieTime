@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html::-webkit-scrollbar {
+        width: 8px; /* Width of the scrollbar */
+        height: 9px;
+      }
+      
+      html::-webkit-scrollbar-thumb {
+        background-color: rgb(188, 187, 187); /* Color of the scrollbar handle */
+        border-radius: 20px; /* Rounded corners of the scrollbar handle */
+      }
+      html::-webkit-scrollbar-track {
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.2
+        ); /* Background color of the scrollbar track */
+        border-radius: 20px; /* Rounded corners of the scrollbar track */
+      }
+      

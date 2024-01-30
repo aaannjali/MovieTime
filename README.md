@@ -20,6 +20,13 @@
 - created movieSlice
 - updated the store
 - Embedded the youtube video and added somme tailwind css to Maincontainer
+- Secoundary container
+     - MovieList - (popularList)      
+        - MovieCard*N
+     - MovieList - NowPlaying
+     - MovieList - Trending
+     - MovieList - upcoming movies
+- Custom Hooks     
 
 
 # Features
