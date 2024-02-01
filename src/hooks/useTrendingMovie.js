@@ -8,6 +8,9 @@ const useTrendingMovie = () =>{
 const dispatch = useDispatch();
 
 
+const treandingMovie = useSelector(
+  (store) => store.movies.treandingMovie
+);
 
   const getTrendingMovies = async () =>{
     const data = await fetch(

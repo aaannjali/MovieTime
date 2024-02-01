@@ -1,3 +1,19 @@
+
+## Technologies Used
+
+NetflixGPT is built using a combination of modern web technologies and services:
+
+React: NetflixGPT is primarily built using React, a popular JavaScript library for building user interfaces.
+
+Tailwind CSS: We have used Tailwind CSS for efficient and responsive styling, ensuring a seamless user experience across devices.
+
+Redux Toolkit: Redux Toolkit helps manage the application's state, making it easier to handle complex data flows and state changes.
+
+Firebase: Firebase is used for user authentication, ensuring secure access to personalized recommendations and conversation history.
+
+OpenAI GPT-3: The heart of NetflixGPT is powered by OpenAI's GPT-3, which enables natural language understanding and conversation generation.
+
+
 # Netflix
 - Create react app
 - setUp for Tailwind css
