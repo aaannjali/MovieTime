@@ -1,4 +1,4 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addTreandingMovies } from "../utils/movieSlice";
 import { API_OPTIONS } from "../utils/constant";
 import { useEffect } from "react";
@@ -6,6 +6,8 @@ import { useEffect } from "react";
 
 const useTrendingMovie = () =>{
 const dispatch = useDispatch();
+
+
 
   const getTrendingMovies = async () =>{
     const data = await fetch(
