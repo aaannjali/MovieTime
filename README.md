@@ -26,7 +26,10 @@
      - MovieList - NowPlaying
      - MovieList - Trending
      - MovieList - upcoming movies
-- Custom Hooks     
+- Custom Hooks  
+- GPT search feature   
+- ADDED MULti-Language feature
+
 
 
 # Features

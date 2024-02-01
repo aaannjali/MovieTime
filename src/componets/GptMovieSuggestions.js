@@ -1,6 +1,6 @@
 import React from 'react'
 
-const reportWebVitals = () => {
+const GptMovieSuggestions = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const reportWebVitals = () => {
   )
 }
 
-export default reportWebVitals
+export default GptMovieSuggestions
